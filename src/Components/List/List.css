@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Simp;
+    src: local('Simplifica Regular'), local('Simplifica');
+    src: url(../../Fonts/Simplifica.ttf) format('truetype');
+    font-weight: normal;
+}
+
+.wrapper {
+    text-align: center;
+    background-color: #05386B;
+    margin: 3rem auto;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.wrapper:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
+}
+
+.title {
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: Simp;
+    font-size: 4.5rem;
+    padding: 2rem 0;
+    margin: 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 70%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 4rem;
+    }
+}
